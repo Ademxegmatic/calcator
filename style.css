@@ -1,0 +1,39 @@
+.calc{
+    width: 140px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+    margin: 5px;
+}
+.calc .top{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 5px;
+}
+.calc .main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+}
+.calc .bottom{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 15px;
+}
+span{
+    background: #ffaaaa;
+    position: relative;
+    top: 300px;
+    padding: 3px;
+    height: 20px;
+}
+.calc button{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px 0;
+}
