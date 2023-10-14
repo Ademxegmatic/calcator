@@ -1,5 +1,5 @@
 function num(){
-    document.getElementById('span').inputMode=`
-    <input></input>
+    document.getElementById('span').innerHTML =`
+    <span>1</span>
     `
 }
